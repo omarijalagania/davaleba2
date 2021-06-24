@@ -16,7 +16,7 @@ body {
 }
 .row {
   max-width: 100%;
-  width: 1170px;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -602,6 +602,26 @@ textarea {
   .row {
     padding: 0 2%;
   }
+  .view-all {
+    right: -10%;
+  }
+  .about-text p {
+    font-size: 80%;
+  }
+  .about-image {
+    width: 50%;
+  }
+  .google-map img {
+    width: 100%;
+  }
+  .fieldset {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contact-forms {
+    flex-direction: column;
+  }
 }
 
 /* Small tablets to big tablets from 767px to 1023px */
@@ -630,7 +650,7 @@ textarea {
     left: 2.4%;
   }
   .view-all {
-    right: -40%;
+    right: -10%;
   }
 
   .about-container img {
@@ -661,6 +681,10 @@ textarea {
     width: 767px;
   }
 
+  .nav-links {
+    font-size: 70%;
+    padding: 5px;
+  }
   .header {
     width: 100%;
   }
@@ -669,7 +693,10 @@ textarea {
     top: 20%;
   }
   .view-all {
-    right: -20%;
+    display: none;
+  }
+  .path {
+    display: none;
   }
 
   .about-text p {
@@ -685,7 +712,10 @@ textarea {
     .row {
       width: 480px;
     }
-
+    .nav-links {
+      font-size: 70%;
+      padding: 5px;
+    }
     .cards {
       flex-direction: column;
     }

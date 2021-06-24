@@ -24,7 +24,7 @@ const AboutUs = () => {
                 quis molestias optio vel, praesentium id illum a!
               </p>
             </div>
-            <img src={meeting} alt='image' />
+            <img className='about-image' src={meeting} alt='image' />
           </div>
         </div>
       </section>
